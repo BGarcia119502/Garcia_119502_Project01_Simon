@@ -5,6 +5,12 @@ def main():
     win = GraphWin("Simon", 900, 700)
     win.setBackground(color_rgb(10, 10, 10))
 
+    o = Oval(Point(350, 300), Point(550, 400))
+    o.setOutline("black")
+    o.setFill(color_rgb(55, 55, 55))
+    o.setWidth(1)
+    o.draw(win)
+
     t = Text(Point(450, 350), "Simon")
     t.setFill("white")
     t.setFace("helvetica")
