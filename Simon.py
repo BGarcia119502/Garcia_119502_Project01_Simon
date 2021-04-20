@@ -6,9 +6,9 @@ def main():
     win.setBackground(color_rgb(10, 10, 10))
 
     o = Oval(Point(350, 300), Point(550, 400))
-    o.setOutline("black")
+    o.setOutline(color_rgb(75, 75, 75))
     o.setFill(color_rgb(55, 55, 55))
-    o.setWidth(1)
+    o.setWidth(2)
     o.draw(win)
 
     t = Text(Point(450, 350), "Simon")
